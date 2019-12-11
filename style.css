@@ -29,14 +29,34 @@ body {
 }
 
 h1 {
-    display: flex;
+    text-align: center;
     justify-content: center;
     align-items: center;
-    font-size: 64px;
+    font-size: 3.5em;
     letter-spacing: -0.51px;
     margin: 0;
     margin-top: 20px;
 }
+
+
+#effective-date {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 2.5em;
+    margin: 10px;
+    margin-bottom: 60px;
+
+}
+
+#effective-date span {
+
+    font-weight: 400;
+    margin-left: 10px;
+
+}
+
 
 h2 {
     margin: 0;
@@ -54,22 +74,7 @@ h3 {
     letter-spacing: -0.34px;
 }
 
-#effective-date {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: 600;
-    font-size: 42px;
-    margin: 10px;
-    margin-bottom: 60px;
-}
 
-#effective-date span {
-
-    font-weight: 400;
-    margin-left: 10px;
-
-}
 
 p {
     font-size: small;
@@ -78,6 +83,7 @@ p {
 
 .text-fakebox {
     padding: 5vw;
+    padding-top: 5vw;
 }
 
 @media screen and (min-width: 1000px){
