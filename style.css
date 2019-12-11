@@ -18,6 +18,10 @@ header {
   max-height: 80%;
 }
 
+#desktop-header-text {
+    display:none;
+}
+
 body {
   font-family: 'Open Sans', sans-serif;
   margin: 0;
@@ -74,4 +78,56 @@ p {
 
 .text-fakebox {
     padding: 5vw;
+}
+
+@media screen and (min-width: 1000px){
+
+    header {
+        justify-content: left;
+        min-height: 70px;
+        box-shadow: 0px 2px 8px 0 rgba(116, 114, 114, 0.5);
+    }
+
+    #header-image {
+        width: 42px;
+        height: 42px;
+        padding: 20px
+      }
+
+    #desktop-header-text {
+        
+        display: block;
+        width: 407px;
+        height: 41px;
+        align-items: center;
+        font-size: 18px;
+        letter-spacing: -0.59px;
+        font-weight: 300;
+        padding-top: 15px;
+    }
+
+
+    #desktop-header-text span {
+        letter-spacing: -0.31px;
+        font-size: 22px;
+        font-weight: 800;
+    }
+    
+    .text-fakebox {
+        margin-left: 25%;
+        margin-right: 25%;
+    } 
+
+
+    h1 {
+        font-size: 30px;
+        margin-top: 32px;
+    }
+
+    #effective-date {
+        font-size: 14px;
+        margin-bottom: 25px;
+        margin-top: 0;
+        padding-top: 5px;
+    }
 }
